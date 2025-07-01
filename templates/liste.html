@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Rezervasyon Listesi</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>📋 Yapılan Tüm Rezervasyonlar</h2>
+    <table>
+        <tr>
+            <th>Ad Soyad</th>
+            <th>Tarih</th>
+            <th>Saat</th>
+        </tr>
+        {% for r in veriler %}
+        <tr>
+            <td>{{ r['name'] }}</td>
+            <td>{{ r['date'] }}</td>
+            <td>{{ r['time'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Sanal ortamlar ve cache
+.venv/
+__pycache__/
+
+# API anahtarları
+credentials.json
+calendar_credentials.json
+
+# Derlenmiş dosyalar
+*.pkl
+*.pyc
+
+# IDE dosyaları
+.vscode/
+.idea/
+.DS_Store
+
+# Raporlar
+reports/*.png
+reports/*.pdf
