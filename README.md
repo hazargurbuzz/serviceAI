@@ -25,6 +25,7 @@
 ---
 ##  Project Structure
 serviceAI/
+
 ├── analysis/ # Churn, segmentation, forecasting, ROI reports
 
 ├── core/ # Reminder bots, chatbot, Google Sheets connectors
