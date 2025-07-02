@@ -38,16 +38,27 @@ Project Structure
 
 serviceAI/
 ├── analysis/ # Churn, segmentation, forecasting, ROI reports
+
 ├── core/ # Reminder bots, chatbot, Google Sheets connectors
+
 ├── reports/ # Auto-generated charts and PDF reports
+
 ├── templates/ # Optional: Flask web UI templates
+
 ├── app.py # Web app entry point (optional)
+
 ├── recommend.py # Recommender system + PDF report generator
+
 ├── train_model.py # Model training script
+
 ├── recommender_ncf.py # (Legacy or alternative recommender code)
+
 ├── README.md # This file
+
 ├── .gitignore # To ignore credentials & reports
+
 ├── credentials.json # Google API credentials (should be .gitignored)
+
 └── requirements.txt # Python dependencies
 
 Installation & Setup
