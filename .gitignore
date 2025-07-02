@@ -18,3 +18,10 @@ calendar_credentials.json
 # Raporlar
 reports/*.png
 reports/*.pdf
+
+# Model dosyaları
+*.h5
+
+# PDF dosyaları
+*.pdf
+
