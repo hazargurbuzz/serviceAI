@@ -25,12 +25,19 @@
 ---
 ##  Project Structure
 serviceAI/
+
 ├── analysis/ # Churn, segmentation, forecasting, ROI reports
+
 ├── core/ # Reminder bots, chatbot, Google Sheets connectors
+
 ├── reports/ # Auto-generated charts and PDF reports
+
 ├── templates/ # Optional: Flask web UI
+
 ├── app.py # Web app entry point (optional)
+
 ├── README.md # This file
+
 ├── .gitignore # To ignore credentials & reports
 
 ```bash
